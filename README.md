@@ -1,8 +1,3 @@
-Voici un **README.md** rédigé pour ton projet, basé sur le compte rendu que tu m’as fourni. Il présente clairement le but, les étapes, les outils, et les améliorations possibles du projet :
-
----
-
-````markdown
 # 🧼 Pipeline de Traitement de Données avec Pandas & Logging
 
 ## 📋 Description
