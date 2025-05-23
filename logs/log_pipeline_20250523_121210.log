@@ -1,0 +1,11 @@
+2025-05-23 12:12:10,109 - INFO - Début du pipeline de traitement de données
+2025-05-23 12:12:10,120 - INFO - Chargement du fichier : ./jeu_donnees_etl_5000_lignes.csv — 5266 lignes, 5 colonnes
+2025-05-23 12:12:10,174 - INFO - Suppression de 301 doublons
+2025-05-23 12:12:10,187 - INFO - Application de la winsorisation sur 'Quantite_vendue' et 'Prix_unitaire'
+2025-05-23 12:12:10,190 - INFO - Suppression des lignes avec valeurs manquantes dans 'Nom_produit' ou 'Prix_unitaire'
+2025-05-23 12:12:10,193 - INFO - Validation après nettoyage : {'doublons_restants': 0, 'valeurs_nulles': {'ID_produit': 0, 'Nom_produit': 0, 'Quantite_vendue': 1307, 'Prix_unitaire': 0, 'Date_vente': 0}, 'quantites_negatives': 0, 'prix_negatifs': 0}
+2025-05-23 12:12:10,199 - INFO - Colonne 'Total_HT' créée avec succès
+2025-05-23 12:12:10,204 - INFO - Normalisation Min-Max de la colonne 'Total_HT'
+2025-05-23 12:12:10,206 - INFO - Agrégation des ventes par produit (Total_HT)
+2025-05-23 12:12:10,211 - INFO - Résumé final des traitements : {'Étapes réalisées': ['Suppression des doublons', 'Nettoyage des valeurs manquantes', 'Winsorisation sur les colonnes quantitatives', 'Création de colonnes dérivées', 'Agrégation des ventes par produit'], 'Contrôles finaux': {'doublons_restants': 0, 'valeurs_manquantes': {'ID_produit': 0, 'Nom_produit': 0, 'Quantite_vendue': 1307, 'Prix_unitaire': 0, 'Date_vente': 0, 'Total_HT': 1307, 'Total_HT_normalise': 1307}, 'quantites_negatives': 0, 'prix_negatifs': 0}}
+2025-05-23 12:12:10,233 - INFO - Fichier sauvegardé : archives/donnees_filtrees_20250523_121210.csv
