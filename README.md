@@ -103,10 +103,3 @@ Assurez-vous que `jeu_donnees_etl_5000_lignes.csv` est dans le même dossier.
 ## 📜 Licence
 
 Projet académique – libre d'utilisation à des fins pédagogiques.
-
-```
-
----
-
-Souhaites-tu que je te prépare ce `README.md` dans un fichier téléchargeable ? Ou intégré directement à un dépôt GitHub si tu le publies ?
-```
